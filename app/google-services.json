@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "251876345030",
+    "project_id": "ucp-books",
+    "storage_bucket": "ucp-books.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251876345030:android:246e72b75811ed35e903c7",
+        "android_client_info": {
+          "package_name": "com.example.ucpbooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251876345030-hm2q21pr1eiq6088994pj5mandlvfdj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFllxvXQAvjk1_8F7kRvhlyl5hlVmXwns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251876345030-hm2q21pr1eiq6088994pj5mandlvfdj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

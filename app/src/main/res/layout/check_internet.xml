@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/baseline_signal_wifi_off_24"
+        android:layout_gravity="center"
+        ></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OOPS"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:gravity="center"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Internet Connection"
+        android:gravity="center"
+        android:textSize="25sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Check Your Internet Connection"
+        android:gravity="center"
+        android:textSize="18sp"></TextView>
+
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/retry"
+    android:text="Retry"
+    android:textColor="@color/white"
+    android:layout_margin="50dp"
+    android:background="@color/black"
+    android:textAllCaps="true"></androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+</LinearLayout>
